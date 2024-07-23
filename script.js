@@ -48,10 +48,10 @@ guessSubmit.addEventListener("click", checkGuess); // Cliquer sur le button subm
 function setGameOver() {
   guessField.disabled = true; // empêche l'utilisateur d'insérer un nombre
   guessSubmit.disabled = true; // empêche l'utilisateur de cliquer sur le button
-  resetButton = document.createElement("button"); // Créer un buttton
+  resetButton = document.createElement("button"); //Créer un buttton
   resetButton.textContent = "Rejouer"; //Ajouter le texte du button
   document.body.appendChild(resetButton); //Ajouter le button au body du html
-  resetButton.addEventListener("click", resetGame); // Cliquer sur le button rejouer
+  resetButton.addEventListener("click", resetGame); //Cliquer sur le button rejouer
 }
 
 function resetGame() {
